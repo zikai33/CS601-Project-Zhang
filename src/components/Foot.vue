@@ -19,8 +19,12 @@ export default {
         gitHubClick: function () {
             window.location.href = "https://github.com/zikai33";
         },
-        twitterClick: function () {},
-        linkedInClick: function () {},
+        twitterClick: function () {
+            window.location.href = "https://twitter.com/zhangzikai12";
+        },
+        linkedInClick: function () {
+            window.location.href = "https://www.linkedin.com/";
+        },
     },
 };
 </script>
