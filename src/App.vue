@@ -24,9 +24,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     margin: 0px;
-    padding-top: 8rem;
-    padding-bottom: 6rem;
 }
 
 a {

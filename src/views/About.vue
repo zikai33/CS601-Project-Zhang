@@ -29,17 +29,16 @@
             />
         </div>
     </div>
+    <hr>
 </template>
 
 <style scoped>
 .pic {
     text-align: center;
-
 }
 
 .size {
     width: 400px;
-
     justify-content:left;
     margin-right: 60px;
 }
@@ -47,10 +46,9 @@
 .flx {
     display: flex;
     justify-content: center;
-    margin-block: 2rem;
-
-    float: inline-end;
-    width: 800px;
+    gap: 2rem;
+    max-width: 1080px;
+    width: 80vw;
     text-align: center;
     margin: auto;
 }

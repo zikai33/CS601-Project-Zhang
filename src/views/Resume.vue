@@ -154,7 +154,8 @@
         </div>
         <h3>SKILLS</h3>
         <hr />
-        <div class="leftmost">
+<div class="totalsize">
+            <div class="leftmost">
             <strong>Programming Languages:</strong> Python, iOS development
             (Objective-C, Swift), Java, C, C++, JavaScript, HTML5
         </div>
@@ -167,6 +168,7 @@
             Naïve Bayes, K-Means, Random Forest
         </div>
         <div class="leftmost"><strong>Operation System:</strong> Linux</div>
+</div>
     </div>
 </template>
 
