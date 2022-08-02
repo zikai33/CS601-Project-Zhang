@@ -4,7 +4,7 @@
         <div class="Deg">
             <div class="wap">
                 <div class="SchoolSize">Boston University</div>
-                <div class="dateSize">09/2021 - 12/2022</div>
+                <div class="dateSize">09/2021 - 05/2022</div>
             </div>
             <div class="major">
                 Master of Computer Science, Data Analytics
