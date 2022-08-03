@@ -1,4 +1,5 @@
 <template>
+<br><br><br><br>
     <div class="flx">
         <div class="size">
             <p>
@@ -51,5 +52,6 @@
     width: 80vw;
     text-align: center;
     margin: auto;
+
 }
 </style>
