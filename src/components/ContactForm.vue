@@ -46,6 +46,8 @@ export default {
     width: 80vw;
     max-width: 720px;
     height: auto;
+    text-align: center;
+    margin: auto;
 }
 
 .form {
