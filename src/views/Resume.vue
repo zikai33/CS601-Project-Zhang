@@ -205,4 +205,7 @@ h3 {
 .eduwidth {
     width: 550px;
 }
+
+
 </style>
+

@@ -21,6 +21,7 @@
             </div>
             <div class="major">College of Engineering</div>
         </div>
+        <hr>
         <h1>Courses</h1>
         <table>
             <tr>

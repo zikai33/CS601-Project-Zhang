@@ -27,6 +27,7 @@ body {
     padding-top: 4rem;
     padding-bottom: 4rem;
     margin: 0px;
+    background-color: #F8F8F5;
 }
 
 a {
