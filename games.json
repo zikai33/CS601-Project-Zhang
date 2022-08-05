@@ -1,0 +1,32 @@
+{
+    "herodata": [
+        {
+            "Name":"Archer Queen",
+            "Maxlevel":"80",
+            "Damage":"840",
+            "Hitpoints":"3565",
+            "Ability":"16"
+        },
+        {
+            "Name":"Baebarian King",
+            "Maxlevel":"80",
+            "Damage":"595",
+            "Hitpoints":"11250",
+            "Ability":"16"
+        },
+        {
+            "Name":"Ground Warden",
+            "Maxlevel":"55",
+            "Damage":"319",
+            "Hitpoints":"2540",
+            "Ability":"11"
+        },
+        {
+            "Name":"Royal Champion",
+            "Maxlevel":"30",
+            "Damage":"580",
+            "Hitpoints":"4300",
+            "Ability":"6"
+        }
+    ]
+}
