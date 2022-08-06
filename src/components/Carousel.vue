@@ -17,23 +17,23 @@
             </div>
             <div class="stats">
                 <div class="row">
-                    <div>Name: </div>
+                    <div class="title">Name: </div>
                     <div class="info">{{ character[index].name }}</div>
                 </div>
                 <div class="row">
-                    <div>Max Level: </div>
+                    <div class="title">Max Level: </div>
                     <div class="info">{{ character[index].maxlevel }}</div>
                 </div>
                 <div class="row">
-                    <div>Damage: </div>
+                    <div class="title">Damage: </div>
                     <div class="info">{{ character[index].dmg }}</div>
                 </div>
                 <div class="row">
-                    <div>Hit Point: </div>
+                    <div class="title">Hit Point: </div>
                     <div class="info">{{ character[index].hitpoints }}</div>
                 </div>
                 <div class="row">
-                    <div>Ability: </div>
+                    <div class="title">Ability: </div>
                     <div class="info">{{ character[index].ability }}</div>
                 </div>
             </div>
@@ -118,11 +118,12 @@ export default {
     height: auto;
     display: flex;
     justify-content: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 
 .arrow {
     height: calc(80vw * 0.5625);
+    max-height: calc(1080px * 0.5625);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -150,6 +151,10 @@ img {
     max-width: 320px;
     display: flex;
     justify-content: space-between;
+}
+
+.title {
+    width: max-content;
 }
 
 .info {

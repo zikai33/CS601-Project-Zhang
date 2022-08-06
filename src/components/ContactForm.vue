@@ -73,8 +73,9 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .contactForm {
+    padding-top: 2rem;
     width: 80vw;
     max-width: 720px;
     height: auto;

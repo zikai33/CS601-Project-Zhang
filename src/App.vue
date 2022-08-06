@@ -30,6 +30,11 @@ body {
     background-color: #F8F8F5;
 }
 
+#app {
+    display: flex;
+    justify-content: center;
+}
+
 a {
     color: white;
     text-decoration: none;

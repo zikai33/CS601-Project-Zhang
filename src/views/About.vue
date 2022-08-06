@@ -1,5 +1,4 @@
 <template>
-    <br /><br /><br /><br />
     <div class="flx" ref="flx">
         <div class="size">
             <p>
@@ -30,7 +29,6 @@
             />
         </div>
     </div>
-    <hr />
 </template>
 
 <script>
@@ -75,7 +73,6 @@ export default {
     gap: 2rem;
     max-width: 1080px;
     width: 80vw;
-    text-align: center;
-    margin: auto;
+    padding-top: 4rem;
 }
 </style>
