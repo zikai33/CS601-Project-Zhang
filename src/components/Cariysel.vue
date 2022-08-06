@@ -31,7 +31,6 @@ export default {
     data() {
         return {
             src: String,
-            alt: String,
             index: 0,
             pictures: [],
             images: require.context("@/assets/images", true, /\.(png|jpe?g)$/)
