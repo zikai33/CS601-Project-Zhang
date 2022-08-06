@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="outer">
         <h1>Degrees</h1>
         <div class="Deg">
             <div class="wap">
@@ -7,19 +7,20 @@
                 <div class="dateSize">09/2021 - 05/2022</div>
             </div>
             <div class="major">
-                Master of Computer Science, Data Analytics
+                <b>Degree</b>: Master of Science (MET)
             </div>
-            <div class="major">Metropolitan College(MET)</div>
-        </div><br><br>
+            <div class="major"><b>Major</b>: Computer Science</div>
+            <div class="major"><b>Concentration</b>: Data Analytics</div>
+        </div>
         <div class="Deg">
             <div class="wap">
                 <div class="SchoolSize">Auburn University</div>
                 <div class="dateSize">09/2017 - 05/2021</div>
             </div>
             <div class="major">
-                Bachelor of Computer Science, Computer Sci & Software Engr.
+                <b>Degree</b>: Bachelor of Science Computer Science
             </div>
-            <div class="major">College of Engineering</div>
+            <div class="major"><b>Major</b>: Computer Science and Computer Engineering</div>
         </div>
         <hr>
         <h1>Courses</h1>
@@ -103,33 +104,34 @@
 </template>
 
 <style scoped>
-.Deg {
+.outer {
+    width: auto;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 500px;
-    margin: auto;
+}
+.Deg {
+
 }
 .wap {
     display: flex;
-    text-align: left;
-    line-height: normal;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .SchoolSize {
-    font-size: 25px;
-    margin-right: 30px;
-    justify-content: left;
+    font-size: 1.6rem;
 }
-.dateSize {
-    font-size: 15px;
-    justify-content: right;
-    text-align: right;
-    margin-left: 110px;
-    margin-top: 10px;
-}
+
 .major {
     text-align: left;
     height: 20px;
 }
+
+span {
+    font-weight: 600;
+}
+
 td {
     text-align: center;
     height: 50px;

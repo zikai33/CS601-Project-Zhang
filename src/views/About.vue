@@ -1,6 +1,6 @@
 <template>
-<br><br><br><br>
-    <div class="flx">
+    <br /><br /><br /><br />
+    <div class="flx" ref="flx">
         <div class="size">
             <p>
                 Hello Everyone, my name is <b>Zikai Zhang</b>, born in China.
@@ -30,8 +30,32 @@
             />
         </div>
     </div>
-    <hr>
+    <hr />
 </template>
+
+<script>
+export default {
+    name: "About",
+    created() {
+        this.onResize;
+    },
+    mounted() {
+        this.$nextTick(() => {
+            window.addEventListener("resize", this.onResize);
+        });
+    },
+    methods: {
+        onResize: function () {
+            const width = window.innerWidth;
+            if (width > 1080) {
+                this.$refs.flx.style.flexDirection = "row";
+            } else {
+                this.$refs.flx.style.flexDirection = "column-reverse";
+            }
+        },
+    },
+};
+</script>
 
 <style scoped>
 .pic {
@@ -39,8 +63,9 @@
 }
 
 .size {
-    width: 400px;
-    justify-content:left;
+    width: 80vw;
+    max-width: 720px;
+    justify-content: left;
     margin-right: 60px;
 }
 
@@ -52,6 +77,5 @@
     width: 80vw;
     text-align: center;
     margin: auto;
-
 }
 </style>
